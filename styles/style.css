@@ -1,0 +1,44 @@
+html {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-color: #fff8f0;
+    color: #663300;
+}
+
+.title {
+    text-align: center;
+    border-bottom: 2px solid #ffcc99;
+    margin: 10px 15vw;
+}
+
+.recipes-section {
+    border-bottom: 2px solid #ffcc99;
+}
+
+li {
+    border-bottom: 1px solid #ffcc99;
+    margin: 10px 0;
+    list-style: square;
+}
+
+.hyperlink {
+    text-decoration: none;
+    color: #994d00;
+    transition: color 0.2s ease;
+}
+
+.hyperlink:hover {
+    color: #ff8533;
+    text-decoration: underline;
+}
+
+.recipe-image {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
