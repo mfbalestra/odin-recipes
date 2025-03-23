@@ -42,3 +42,37 @@ li {
     margin: 0 auto;
     display: block;
 }
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f8f8;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-logo a {
+    text-decoration: none;
+    color: #994d00;
+    font-size: 1.5rem;
+    transition: color 0.2s ease;
+}
+
+.navbar-logo a:hover {
+    color: #ff8533;
+}
+
+.navbar-links a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #333;
+    margin-left: 20px;
+    transition: color 0.2s ease;
+}
+
+.navbar-links a:hover {
+    color: #ff8533;
+    text-decoration: underline;
+}
